@@ -18,7 +18,7 @@ public class tiquete{
 
         
         if (Edad < 2) {
-            System.out.println("Sin tiquete");
+            System.out.println("Sin tiquete. No puedes viajar");
         } else if (Edad >= 2 && Edad < 5) {
             Preciotiquete = 0;
             System.out.println("El precio de su tiquete es : $" + Preciotiquete +" Su tiquete es gratuito");
